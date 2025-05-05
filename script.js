@@ -402,7 +402,7 @@ function initRRRWinRateCalculator() {
         
         // Generate table rows for different win rates
         const winRates = [
-            Math.max(50, Math.floor(minWinRate) - 10), 
+            Math.max(10, Math.floor(minWinRate) - 10), 
             Math.floor(minWinRate),
             Math.ceil(minWinRate),
             Math.min(80, Math.ceil(minWinRate) + 10),
